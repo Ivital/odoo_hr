@@ -40,3 +40,50 @@ msgstr "Відображувана назва"
 #: model:ir.model.fields,field_description:hr_collective_agreement_partner.field_collective_agreement_assign_wizard__partner_id
 msgid "Partner"
 msgstr "Партнер"
+
+#. module: hr_collective_agreement_partner
+#: model_terms:ir.ui.view,arch_db:hr_collective_agreement_partner.view_collective_agreement_assign_wizard
+msgid "Assign"
+msgstr "Призначити"
+
+#. module: hr_collective_agreement_partner
+#: model_terms:ir.ui.view,arch_db:hr_collective_agreement_partner.view_collective_agreement_tree_partner
+msgid "Assign Agreement"
+msgstr "Призначити угоду"
+
+#. module: hr_collective_agreement_partner
+#: model:ir.actions.act_window,name:hr_collective_agreement_partner.action_collective_agreement_assign_wizard
+#: model_terms:ir.ui.view,arch_db:hr_collective_agreement_partner.view_collective_agreement_assign_wizard
+msgid "Assign Collective Agreements"
+msgstr "Призначити колективні угоди"
+
+#. module: hr_collective_agreement_partner
+#: model_terms:ir.ui.view,arch_db:hr_collective_agreement_partner.view_collective_agreement_assign_wizard
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: hr_collective_agreement_partner
+#: model:ir.model,name:hr_collective_agreement_partner.model_collective_agreement
+msgid "Collective Agreement"
+msgstr "Колективна угода"
+
+#. module: hr_collective_agreement_partner
+#: model:ir.model.fields,field_description:hr_collective_agreement_partner.field_res_partner__collective_agreement_count
+#: model:ir.model.fields,field_description:hr_collective_agreement_partner.field_res_users__collective_agreement_count
+msgid "Collective Agreements Count"
+msgstr "Кількість колективних угод"
+
+#. module: hr_collective_agreement_partner
+#: model:ir.model.fields,field_description:hr_collective_agreement_partner.field_collective_agreement_assign_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: hr_collective_agreement_partner
+#: model:ir.model.fields,field_description:hr_collective_agreement_partner.field_collective_agreement_assign_wizard__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: hr_collective_agreement_partner
+#: model_terms:ir.ui.view,arch_db:hr_collective_agreement_partner.view_collective_agreement_tree_partner
+msgid "Unassign"
+msgstr "Зняти призначення"

@@ -23,3 +23,8 @@ msgstr "Вміст"
 #: model_terms:ir.ui.view,arch_db:hr_contract_document.hr_contract_view_form
 msgid "Documents"
 msgstr "Документи"
+
+#. module: hr_contract_document
+#: model:ir.model.fields,field_description:hr_contract_document.field_hr_contract__documents_count
+msgid "Document Count"
+msgstr "Кількість документів"

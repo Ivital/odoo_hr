@@ -17,3 +17,18 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_employee_service_contract.field_hr_employee__service_start_date
 msgid "Start Date"
 msgstr "Дата початку"
+
+#. module: hr_employee_service_contract
+#: model:ir.model.fields,field_description:hr_employee_service_contract.field_hr_employee__first_contract_id
+msgid "First Contract"
+msgstr "Перший договір"
+
+#. module: hr_employee_service_contract
+#: model:ir.model.fields,field_description:hr_employee_service_contract.field_hr_employee__last_contract_id
+msgid "Last Contract"
+msgstr "Останній договір"
+
+#. module: hr_employee_service_contract
+#: model:ir.model.fields,field_description:hr_employee_service_contract.field_hr_employee__service_termination_date
+msgid "Termination Date"
+msgstr "Дата припинення"

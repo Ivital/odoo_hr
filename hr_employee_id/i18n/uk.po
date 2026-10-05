@@ -23,3 +23,25 @@ msgstr "Кількість цифр"
 #: model:ir.model.fields.selection,name:hr_employee_id.selection__res_company__employee_id_gen_method__sequence
 msgid "Sequence"
 msgstr "Послідовність"
+
+#. module: hr_employee_id
+#: model:ir.model.fields,field_description:hr_employee_id.field_res_company__employee_id_gen_method
+#: model:ir.model.fields,field_description:hr_employee_id.field_res_config_settings__employee_id_gen_method
+msgid "Generation Method"
+msgstr "Метод генерації"
+
+#. module: hr_employee_id
+#: model:ir.model.fields,field_description:hr_employee_id.field_res_company__employee_id_sequence
+#: model:ir.model.fields,field_description:hr_employee_id.field_res_config_settings__employee_id_sequence
+msgid "Identifier Sequence"
+msgstr "Послідовність ідентифікаторів"
+
+#. module: hr_employee_id
+#: model:ir.model.fields.selection,name:hr_employee_id.selection__res_company__employee_id_gen_method__random
+msgid "Random"
+msgstr "Випадковий"
+
+#. module: hr_employee_id
+#: model_terms:ir.ui.view,arch_db:hr_employee_id.res_config_settings_view_form
+msgid "Values set here are company-specific."
+msgstr "Значення, задані тут, є специфічними для компанії."

@@ -28,3 +28,10 @@ msgstr "Документи"
 #: model:ir.model.fields,field_description:hr_employee_document.field_hr_employee_public__is_logged
 msgid "Is Logged"
 msgstr "Зареєстровано"
+
+#. module: hr_employee_document
+#: model:ir.model.fields,field_description:hr_employee_document.field_hr_employee__document_count
+#: model:ir.model.fields,field_description:hr_employee_document.field_hr_employee_base__document_count
+#: model:ir.model.fields,field_description:hr_employee_document.field_hr_employee_public__document_count
+msgid "Document Count"
+msgstr "Кількість документів"

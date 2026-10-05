@@ -33,3 +33,31 @@ msgstr "Переміщення"
 #: model:ir.model.fields,field_description:hr_personal_equipment_stock.field_hr_personal_equipment__move_ids
 msgid "Stock Moves"
 msgstr "Складські переміщення"
+
+#. module: hr_personal_equipment_stock
+#: model:ir.model.fields,field_description:hr_personal_equipment_stock.field_hr_personal_equipment__qty_delivered
+msgid "Delivered Quantity"
+msgstr "Доставлена кількість"
+
+#. module: hr_personal_equipment_stock
+#: model:ir.model.fields,field_description:hr_personal_equipment_stock.field_stock_move__personal_equipment_id
+msgid "Employee Personal Equipment"
+msgstr "Особисте обладнання працівника"
+
+#. module: hr_personal_equipment_stock
+#: model:ir.model.fields,field_description:hr_personal_equipment_stock.field_procurement_group__equipment_request_id
+#: model:ir.model.fields,field_description:hr_personal_equipment_stock.field_stock_picking__equipment_request_id
+msgid "Equipment Request"
+msgstr "Запит на обладнання"
+
+#. module: hr_personal_equipment_stock
+#: model:ir.model.fields,field_description:hr_personal_equipment_stock.field_hr_personal_equipment_request__picking_count
+msgid "Picking Count"
+msgstr "Кількість комплектувань"
+
+#. module: hr_personal_equipment_stock
+#: model:ir.model,name:hr_personal_equipment_stock.model_procurement_group
+#: model:ir.model.fields,field_description:hr_personal_equipment_stock.field_hr_personal_equipment__procurement_group_id
+#: model:ir.model.fields,field_description:hr_personal_equipment_stock.field_hr_personal_equipment_request__procurement_group_id
+msgid "Procurement Group"
+msgstr "Група забезпечення"

@@ -26,3 +26,10 @@ msgstr "Ім’я"
 #: model:ir.model.fields,field_description:hr_employee_second_lastname.field_hr_employee_public__lastname
 msgid "Last name"
 msgstr "Прізвище"
+
+#. module: hr_employee_second_lastname
+#: model:ir.model.fields,field_description:hr_employee_second_lastname.field_hr_employee__lastname2
+#: model:ir.model.fields,field_description:hr_employee_second_lastname.field_hr_employee_base__lastname2
+#: model:ir.model.fields,field_description:hr_employee_second_lastname.field_hr_employee_public__lastname2
+msgid "Second last name"
+msgstr "Друге прізвище"

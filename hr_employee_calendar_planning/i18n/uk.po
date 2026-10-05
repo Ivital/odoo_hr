@@ -54,3 +54,42 @@ msgstr "Дата початку"
 #: model:ir.model.fields,field_description:hr_employee_calendar_planning.field_hr_employee_calendar__calendar_id
 msgid "Working Time"
 msgstr "Робочий час"
+
+#. module: hr_employee_calendar_planning
+#: model:ir.model.fields,field_description:hr_employee_calendar_planning.field_resource_calendar__auto_generate
+msgid "Auto Generate"
+msgstr "Автоматично генерувати"
+
+#. module: hr_employee_calendar_planning
+#: model:ir.model,name:hr_employee_calendar_planning.model_hr_employee_calendar
+#: model:ir.model.fields,field_description:hr_employee_calendar_planning.field_resource_calendar__employee_calendar_ids
+msgid "Employee Calendar"
+msgstr "Календар працівника"
+
+#. module: hr_employee_calendar_planning
+#: model:ir.model.fields,field_description:hr_employee_calendar_planning.field_resource_calendar__flexible_hours
+#: model_terms:ir.ui.view,arch_db:hr_employee_calendar_planning.resource_calendar_form
+msgid "Flexible Hours"
+msgstr "Гнучкі години"
+
+#. module: hr_employee_calendar_planning
+#: model_terms:ir.ui.view,arch_db:hr_employee_calendar_planning.resource_calendar_form
+msgid "Hours per Week"
+msgstr "Годин на тиждень"
+
+#. module: hr_employee_calendar_planning
+#: model:ir.model.fields,field_description:hr_employee_calendar_planning.field_hr_employee_calendar__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: hr_employee_calendar_planning
+#: model:ir.model.fields,field_description:hr_employee_calendar_planning.field_hr_employee_calendar__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: hr_employee_calendar_planning
+#: model:ir.model.fields,field_description:hr_employee_calendar_planning.field_hr_employee__stored_is_flexible
+#: model:ir.model.fields,field_description:hr_employee_calendar_planning.field_hr_employee_base__stored_is_flexible
+#: model:ir.model.fields,field_description:hr_employee_calendar_planning.field_hr_employee_public__stored_is_flexible
+msgid "Stored Is Flexible"
+msgstr "Збережене значення гнучке"

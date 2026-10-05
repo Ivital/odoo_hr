@@ -17,3 +17,9 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_employee_service.field_hr_employee__service_hire_date
 msgid "Hire Date"
 msgstr "Дата найму"
+
+#. module: hr_employee_service
+#: model:ir.model.fields,field_description:hr_employee_service.field_hr_employee__service_duration
+#: model_terms:ir.ui.view,arch_db:hr_employee_service.view_employee_form_inherit_extension
+msgid "Service Duration"
+msgstr "Тривалість послуги"

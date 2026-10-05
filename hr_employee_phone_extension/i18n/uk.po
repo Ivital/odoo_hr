@@ -19,3 +19,16 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_employee_phone_extension.field_hr_employee_public__short_number
 msgid "Short Number"
 msgstr "Короткий номер"
+
+#. module: hr_employee_phone_extension
+#: model_terms:ir.ui.view,arch_db:hr_employee_phone_extension.hr_employee_public_view_form
+#: model_terms:ir.ui.view,arch_db:hr_employee_phone_extension.view_employee_form
+msgid "Internal Contact"
+msgstr "Внутрішній контакт"
+
+#. module: hr_employee_phone_extension
+#: model:ir.model.fields,field_description:hr_employee_phone_extension.field_hr_employee__internal_number
+#: model:ir.model.fields,field_description:hr_employee_phone_extension.field_hr_employee_base__internal_number
+#: model:ir.model.fields,field_description:hr_employee_phone_extension.field_hr_employee_public__internal_number
+msgid "Internal Number"
+msgstr "Внутрішній номер"
