@@ -1,0 +1,161 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:39+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: hr_personal_equipment_request
+#: model:ir.model.fields.selection,name:hr_personal_equipment_request.selection__hr_personal_equipment__state__accepted
+#: model:ir.model.fields.selection,name:hr_personal_equipment_request.selection__hr_personal_equipment_request__state__accepted
+#: model_terms:ir.ui.view,arch_db:hr_personal_equipment_request.hr_personal_equipment_request_search_view
+#: model_terms:ir.ui.view,arch_db:hr_personal_equipment_request.hr_personal_equipment_search_view
+msgid "Accepted"
+msgstr "Прийнято"
+
+#. module: hr_personal_equipment_request
+#: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_personal_equipment__activity_ids
+#: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_personal_equipment_request__activity_ids
+msgid "Activities"
+msgstr "Дії"
+
+#. module: hr_personal_equipment_request
+#. odoo-python
+#: code:addons/hr_personal_equipment_request/models/hr_personal_equipment_request.py:0
+#: model:ir.actions.act_window,name:hr_personal_equipment_request.hr_personal_equipment_act_window
+#: model:ir.ui.menu,name:hr_personal_equipment_request.hr_personal_equipment_allocations_menu
+#: model_terms:ir.ui.view,arch_db:hr_personal_equipment_request.hr_personal_equipment_request_form_view
+msgid "Allocations"
+msgstr "Розподіли"
+
+#. module: hr_personal_equipment_request
+#: model:ir.model.fields.selection,name:hr_personal_equipment_request.selection__hr_personal_equipment__state__cancelled
+#: model:ir.model.fields.selection,name:hr_personal_equipment_request.selection__hr_personal_equipment_request__state__cancelled
+msgid "Cancelled"
+msgstr "Скасовано"
+
+#. module: hr_personal_equipment_request
+#: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_personal_equipment__create_uid
+#: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_personal_equipment_request__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: hr_personal_equipment_request
+#: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_personal_equipment__create_date
+#: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_personal_equipment_request__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: hr_personal_equipment_request
+#: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_personal_equipment__display_name
+#: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_personal_equipment_request__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: hr_personal_equipment_request
+#: model:ir.model,name:hr_personal_equipment_request.model_hr_employee
+#: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_personal_equipment__employee_id
+#: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_personal_equipment_request__employee_id
+#: model_terms:ir.ui.view,arch_db:hr_personal_equipment_request.hr_personal_equipment_search_view
+msgid "Employee"
+msgstr "Працівник"
+
+#. module: hr_personal_equipment_request
+#: model:ir.model.fields.selection,name:hr_personal_equipment_request.selection__hr_personal_equipment__state__expired
+#: model_terms:ir.ui.view,arch_db:hr_personal_equipment_request.hr_personal_equipment_search_view
+msgid "Expired"
+msgstr "Прострочено"
+
+#. module: hr_personal_equipment_request
+#: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_personal_equipment__expiry_date
+msgid "Expiry Date"
+msgstr "Дата закінчення строку"
+
+#. module: hr_personal_equipment_request
+#: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_personal_equipment__message_follower_ids
+#: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_personal_equipment_request__message_follower_ids
+msgid "Followers"
+msgstr "Підписники"
+
+#. module: hr_personal_equipment_request
+#: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_personal_equipment__has_message
+#: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_personal_equipment_request__has_message
+msgid "Has Message"
+msgstr "Має повідомлення"
+
+#. module: hr_personal_equipment_request
+#: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_personal_equipment__activity_exception_icon
+#: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_personal_equipment_request__activity_exception_icon
+msgid "Icon"
+msgstr "Іконка"
+
+#. module: hr_personal_equipment_request
+#: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_personal_equipment__message_is_follower
+#: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_personal_equipment_request__message_is_follower
+msgid "Is Follower"
+msgstr "Є підписником"
+
+#. module: hr_personal_equipment_request
+#: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_personal_equipment__message_ids
+#: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_personal_equipment_request__message_ids
+msgid "Messages"
+msgstr "Повідомлення"
+
+#. module: hr_personal_equipment_request
+#: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_personal_equipment__name
+#: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_personal_equipment_request__name
+msgid "Name"
+msgstr "Назва"
+
+#. module: hr_personal_equipment_request
+#: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_personal_equipment_request__observations
+#: model_terms:ir.ui.view,arch_db:hr_personal_equipment_request.hr_personal_equipment_request_form_view
+msgid "Observations"
+msgstr "Спостереження"
+
+#. module: hr_personal_equipment_request
+#. odoo-python
+#: code:addons/hr_personal_equipment_request/models/hr_employee.py:0
+#: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_employee__personal_equipment_ids
+#: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_personal_equipment_request__line_ids
+#: model:ir.ui.menu,name:hr_personal_equipment_request.hr_personal_equipment_menu
+#: model_terms:ir.ui.view,arch_db:hr_personal_equipment_request.hr_personal_equipment_request_form_view
+msgid "Personal Equipment"
+msgstr "Персональне обладнання"
+
+#. module: hr_personal_equipment_request
+#: model:ir.actions.act_window,name:hr_personal_equipment_request.hr_personal_equipment_request_act_window
+#: model:ir.ui.menu,name:hr_personal_equipment_request.hr_personal_equipment_request_menu
+msgid "Personal Equipment Request"
+msgstr "Запит на персональне обладнання"
+
+#. module: hr_personal_equipment_request
+#: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_personal_equipment__quantity
+msgid "Quantity"
+msgstr "Кількість"
+
+#. module: hr_personal_equipment_request
+#: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_personal_equipment__start_date
+msgid "Start Date"
+msgstr "Дата початку"
+
+#. module: hr_personal_equipment_request
+#: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_personal_equipment__state
+#: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_personal_equipment_request__state
+#: model_terms:ir.ui.view,arch_db:hr_personal_equipment_request.hr_personal_equipment_search_view
+msgid "State"
+msgstr "Стан"
+
+#. module: hr_personal_equipment_request
+#: model:ir.model.fields.selection,name:hr_personal_equipment_request.selection__hr_personal_equipment__state__valid
+#: model_terms:ir.ui.view,arch_db:hr_personal_equipment_request.hr_personal_equipment_search_view
+msgid "Valid"
+msgstr "Дійсний"

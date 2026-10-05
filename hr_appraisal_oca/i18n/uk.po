@@ -1,0 +1,275 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:39+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: hr_appraisal_oca
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal__active
+msgid "Active"
+msgstr "Активний"
+
+#. module: hr_appraisal_oca
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal__activity_ids
+msgid "Activities"
+msgstr "Дії"
+
+#. module: hr_appraisal_oca
+#. odoo-python
+#: code:addons/hr_appraisal_oca/wizard/send_mail_with_template_wizard.py:0
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal_request_wizard__appraisal_id
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_employee__appraisal_ids
+#: model_terms:ir.ui.view,arch_db:hr_appraisal_oca.hr_appraisal_form_view
+msgid "Appraisal"
+msgstr "Оцінювання"
+
+#. module: hr_appraisal_oca
+#: model:ir.model,name:hr_appraisal_oca.model_hr_appraisal_tag
+#: model:ir.ui.menu,name:hr_appraisal_oca.menuitem_appraisal_tag
+msgid "Appraisal Tags"
+msgstr "Теги оцінювання"
+
+#. module: hr_appraisal_oca
+#: model:ir.actions.act_window,name:hr_appraisal_oca.hr_appraisal_template_action_form
+#: model:ir.ui.menu,name:hr_appraisal_oca.menuitem_appraisal_template
+msgid "Appraisal Templates"
+msgstr "Шаблони оцінювання"
+
+#. module: hr_appraisal_oca
+#: model:ir.actions.act_window,name:hr_appraisal_oca.hr_appraisal_action_form
+#: model:ir.module.category,name:hr_appraisal_oca.module_category_hr_appraisal
+#: model:ir.ui.menu,name:hr_appraisal_oca.menu_hr_appraisal
+#: model:ir.ui.menu,name:hr_appraisal_oca.menu_hr_appraisal_root
+#: model:mail.activity.type,summary:hr_appraisal_oca.mail_act_hr_appraisal_cfr
+msgid "Appraisals"
+msgstr "Оцінювання"
+
+#. module: hr_appraisal_oca
+#: model_terms:ir.ui.view,arch_db:hr_appraisal_oca.hr_appraisal_form_view
+#: model_terms:ir.ui.view,arch_db:hr_appraisal_oca.hr_appraisal_search_view
+msgid "Archived"
+msgstr "Архівовано"
+
+#. module: hr_appraisal_oca
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal_tag__color
+msgid "Color"
+msgstr "Колір"
+
+#. module: hr_appraisal_oca
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal__color
+msgid "Color Index"
+msgstr "Індекс кольору"
+
+#. module: hr_appraisal_oca
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal__company_id
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal_template__company_id
+msgid "Company"
+msgstr "Компанія"
+
+#. module: hr_appraisal_oca
+#: model:ir.ui.menu,name:hr_appraisal_oca.menu_hr_appraisal_configuration
+msgid "Configuration"
+msgstr "Конфігурація"
+
+#. module: hr_appraisal_oca
+#: model:ir.model.fields.selection,name:hr_appraisal_oca.selection__hr_appraisal__state__2_pending
+#: model_terms:ir.ui.view,arch_db:hr_appraisal_oca.hr_appraisal_search_view
+msgid "Confirmed"
+msgstr "Підтверджено"
+
+#. module: hr_appraisal_oca
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal_request_wizard__body
+msgid "Contents"
+msgstr "Вміст"
+
+#. module: hr_appraisal_oca
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal__created_by
+msgid "Created By"
+msgstr "Створив"
+
+#. module: hr_appraisal_oca
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal__create_uid
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal_request_wizard__create_uid
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal_tag__create_uid
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal_template__create_uid
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal_wizard__create_uid
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_send_email_with_template__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: hr_appraisal_oca
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal__create_date
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal_request_wizard__create_date
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal_tag__create_date
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal_template__create_date
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal_wizard__create_date
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_send_email_with_template__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: hr_appraisal_oca
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal__department_id
+#: model_terms:ir.ui.view,arch_db:hr_appraisal_oca.hr_appraisal_search_view
+msgid "Department"
+msgstr "Відділ"
+
+#. module: hr_appraisal_oca
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal_template__description
+#: model_terms:ir.ui.view,arch_db:hr_appraisal_oca.hr_appraisal_template_form_view
+msgid "Description"
+msgstr "Опис"
+
+#. module: hr_appraisal_oca
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal__display_name
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal_request_wizard__display_name
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal_tag__display_name
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal_template__display_name
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal_wizard__display_name
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_send_email_with_template__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: hr_appraisal_oca
+#: model:ir.model.fields.selection,name:hr_appraisal_oca.selection__hr_appraisal__state__3_done
+#: model_terms:ir.ui.view,arch_db:hr_appraisal_oca.hr_appraisal_search_view
+msgid "Done"
+msgstr "Готово"
+
+#. module: hr_appraisal_oca
+#: model:ir.model,name:hr_appraisal_oca.model_hr_employee
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal__employee_id
+#: model_terms:ir.ui.view,arch_db:hr_appraisal_oca.hr_appraisal_search_view
+msgid "Employee"
+msgstr "Працівник"
+
+#. module: hr_appraisal_oca
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal__message_follower_ids
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal_wizard__message_follower_ids
+msgid "Followers"
+msgstr "Підписники"
+
+#. module: hr_appraisal_oca
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal__has_message
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal_wizard__has_message
+msgid "Has Message"
+msgstr "Має повідомлення"
+
+#. module: hr_appraisal_oca
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal__activity_exception_icon
+msgid "Icon"
+msgstr "Іконка"
+
+#. module: hr_appraisal_oca
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal_template__is_default
+msgid "Is Default"
+msgstr "За замовчуванням"
+
+#. module: hr_appraisal_oca
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal_request_wizard__is_mail_template_editor
+msgid "Is Editor"
+msgstr "Є редактором"
+
+#. module: hr_appraisal_oca
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal__message_is_follower
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal_wizard__message_is_follower
+msgid "Is Follower"
+msgstr "Є підписником"
+
+#. module: hr_appraisal_oca
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal__is_manager
+msgid "Is Manager"
+msgstr "Є керівником"
+
+#. module: hr_appraisal_oca
+#: model_terms:ir.ui.view,arch_db:hr_appraisal_oca.hr_appraisal_search_view
+msgid "Job"
+msgstr "Завдання"
+
+#. module: hr_appraisal_oca
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal__job_id
+msgid "Job Position"
+msgstr "Посада"
+
+#. module: hr_appraisal_oca
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal_request_wizard__lang
+msgid "Language"
+msgstr "Мова"
+
+#. module: hr_appraisal_oca
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal__manager_ids
+msgid "Manager"
+msgstr "Керівник"
+
+#. module: hr_appraisal_oca
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal__message_ids
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal_wizard__message_ids
+msgid "Messages"
+msgstr "Повідомлення"
+
+#. module: hr_appraisal_oca
+#: model_terms:ir.ui.view,arch_db:hr_appraisal_oca.hr_appraisal_tree_view
+msgid "Name"
+msgstr "Назва"
+
+#. module: hr_appraisal_oca
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal__note
+#: model_terms:ir.ui.view,arch_db:hr_appraisal_oca.hr_appraisal_form_view
+msgid "Private Note"
+msgstr "Приватна нотатка"
+
+#. module: hr_appraisal_oca
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal_request_wizard__recipient_ids
+msgid "Recipients"
+msgstr "Одержувачі"
+
+#. module: hr_appraisal_oca
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal_wizard__res_id
+msgid "Resource ID"
+msgstr "ID ресурсу"
+
+#. module: hr_appraisal_oca
+#: model:ir.actions.act_window,name:hr_appraisal_oca.action_hr_appraisal_config_settings
+#: model:ir.ui.menu,name:hr_appraisal_oca.settings_menu_hr_appraisal_oca
+msgid "Settings"
+msgstr "Налаштування"
+
+#. module: hr_appraisal_oca
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal__state
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_employee__last_appraisal_state
+msgid "Status"
+msgstr "Статус"
+
+#. module: hr_appraisal_oca
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal_request_wizard__subject
+msgid "Subject"
+msgstr "Тема"
+
+#. module: hr_appraisal_oca
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal_tag__name
+msgid "Tag Name"
+msgstr "Назва тегу"
+
+#. module: hr_appraisal_oca
+#: model:ir.actions.act_window,name:hr_appraisal_oca.hr_appraisal_tag_action_form
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal__tag_ids
+msgid "Tags"
+msgstr "Теги"
+
+#. module: hr_appraisal_oca
+#: model:res.groups,name:hr_appraisal_oca.group_appraisal_user
+msgid "User"
+msgstr "Користувач"
+
+#. module: hr_appraisal_oca
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal__visibility
+msgid "Visibility"
+msgstr "Видимість"

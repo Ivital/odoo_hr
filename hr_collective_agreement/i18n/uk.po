@@ -1,0 +1,111 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:39+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: hr_collective_agreement
+#: model:ir.model.fields,field_description:hr_collective_agreement.field_collective_agreement__active
+#: model:ir.model.fields.selection,name:hr_collective_agreement.selection__collective_agreement__state__active
+msgid "Active"
+msgstr "Активний"
+
+#. module: hr_collective_agreement
+#: model:ir.model.fields.selection,name:hr_collective_agreement.selection__collective_agreement__state__cancelled
+msgid "Cancelled"
+msgstr "Скасовано"
+
+#. module: hr_collective_agreement
+#: model:ir.model.fields,field_description:hr_collective_agreement.field_collective_agreement__code
+msgid "Code"
+msgstr "Код"
+
+#. module: hr_collective_agreement
+#: model:ir.actions.act_window,name:hr_collective_agreement.action_collective_agreement
+#: model:ir.ui.menu,name:hr_collective_agreement.menu_collective_agreement
+#: model:ir.ui.menu,name:hr_collective_agreement.menu_collective_agreement_root
+#: model_terms:ir.ui.view,arch_db:hr_collective_agreement.view_collective_agreement_search
+#: model_terms:ir.ui.view,arch_db:hr_collective_agreement.view_list_collective_agreement
+msgid "Collective Agreements"
+msgstr "Колективні договори"
+
+#. module: hr_collective_agreement
+#: model:ir.model.fields,field_description:hr_collective_agreement.field_collective_agreement__company_id
+msgid "Company"
+msgstr "Компанія"
+
+#. module: hr_collective_agreement
+#: model:ir.model.fields,field_description:hr_collective_agreement.field_collective_agreement__create_uid
+#: model:ir.model.fields,field_description:hr_collective_agreement.field_collective_agreement_official_publication__create_uid
+#: model:ir.model.fields,field_description:hr_collective_agreement.field_collective_agreement_scope__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: hr_collective_agreement
+#: model:ir.model.fields,field_description:hr_collective_agreement.field_collective_agreement__create_date
+#: model:ir.model.fields,field_description:hr_collective_agreement.field_collective_agreement_official_publication__create_date
+#: model:ir.model.fields,field_description:hr_collective_agreement.field_collective_agreement_scope__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: hr_collective_agreement
+#: model:ir.model.fields,field_description:hr_collective_agreement.field_collective_agreement__display_name
+#: model:ir.model.fields,field_description:hr_collective_agreement.field_collective_agreement_official_publication__display_name
+#: model:ir.model.fields,field_description:hr_collective_agreement.field_collective_agreement_scope__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: hr_collective_agreement
+#: model:ir.model.fields,field_description:hr_collective_agreement.field_collective_agreement__end_date
+msgid "End Date"
+msgstr "Дата завершення"
+
+#. module: hr_collective_agreement
+#: model:ir.model.fields,field_description:hr_collective_agreement.field_collective_agreement__name
+#: model:ir.model.fields,field_description:hr_collective_agreement.field_collective_agreement_official_publication__name
+#: model:ir.model.fields,field_description:hr_collective_agreement.field_collective_agreement_scope__name
+msgid "Name"
+msgstr "Назва"
+
+#. module: hr_collective_agreement
+#: model:ir.model.fields,field_description:hr_collective_agreement.field_collective_agreement__observations
+#: model_terms:ir.ui.view,arch_db:hr_collective_agreement.view_form_collective_agreement
+msgid "Observations"
+msgstr "Спостереження"
+
+#. module: hr_collective_agreement
+#: model:ir.actions.act_window,name:hr_collective_agreement.action_collective_agreement_official_publication
+#: model:ir.ui.menu,name:hr_collective_agreement.menu_collective_agreement_official_publication
+msgid "Official Publications"
+msgstr "Офіційні публікації"
+
+#. module: hr_collective_agreement
+#: model:ir.model.fields,field_description:hr_collective_agreement.field_collective_agreement__partner_ids
+#: model_terms:ir.ui.view,arch_db:hr_collective_agreement.view_form_collective_agreement
+msgid "Partners"
+msgstr "Партнери"
+
+#. module: hr_collective_agreement
+#: model:ir.model.fields,field_description:hr_collective_agreement.field_collective_agreement__scope_id
+msgid "Scope"
+msgstr "Область дії"
+
+#. module: hr_collective_agreement
+#: model:ir.actions.act_window,name:hr_collective_agreement.action_collective_agreement_scope
+#: model:ir.ui.menu,name:hr_collective_agreement.menu_collective_agreement_scope
+msgid "Scopes"
+msgstr "Області дії"
+
+#. module: hr_collective_agreement
+#: model:ir.model.fields,field_description:hr_collective_agreement.field_collective_agreement__state
+msgid "State"
+msgstr "Стан"
