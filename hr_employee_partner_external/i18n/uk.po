@@ -17,3 +17,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_employee_partner_external.field_hr_employee__hr_external_partner_id
 msgid "External Partner"
 msgstr "Зовнішній партнер"
+
+#. module: hr_employee_partner_external
+#: model:ir.model.fields,field_description:hr_employee_partner_external.field_hr_employee__is_external
+msgid "Is an external Employee"
+msgstr "Є зовнішнім працівником"

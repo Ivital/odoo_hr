@@ -336,3 +336,97 @@ msgstr "Підтвердити"
 #: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_personal_equipment_request__website_message_ids
 msgid "Website Messages"
 msgstr "Повідомлення вебсайту"
+
+#. module: hr_personal_equipment_request
+#: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_personal_equipment_request__allocations_count
+msgid "Allocations Count"
+msgstr "Кількість розподілів"
+
+#. module: hr_personal_equipment_request
+#: model_terms:ir.ui.view,arch_db:hr_personal_equipment_request.hr_personal_equipment_request_form_view
+msgid "Are you sure you want to accept this personal equipment request?"
+msgstr "Ви впевнені, що хочете прийняти цей запит персонального обладнання?"
+
+#. module: hr_personal_equipment_request
+#: model_terms:ir.ui.view,arch_db:hr_personal_equipment_request.hr_personal_equipment_request_form_view
+msgid "Are you sure you want to cancel this personal equipment request?"
+msgstr "Ви впевнені, що хочете скасувати цей запит персонального обладнання?"
+
+#. module: hr_personal_equipment_request
+#: model_terms:ir.ui.view,arch_db:hr_personal_equipment_request.hr_personal_equipment_form_view
+msgid "Are you sure you want to expire this personal equipment allocation?"
+msgstr ""
+"Ви впевнені, що хочете завершити строк дії цього призначення персонального "
+"обладнання?"
+
+#. module: hr_personal_equipment_request
+#: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_employee__equipment_request_count
+msgid "Equipment Request Count"
+msgstr "Кількість запитів на обладнання"
+
+#. module: hr_personal_equipment_request
+#: model:ir.model.fields,help:hr_personal_equipment_request.field_hr_personal_equipment__activity_type_icon
+#: model:ir.model.fields,help:hr_personal_equipment_request.field_hr_personal_equipment_request__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Піктограма Font Awesome, наприклад fa-tasks"
+
+#. module: hr_personal_equipment_request
+#: model:ir.model.fields,help:hr_personal_equipment_request.field_hr_personal_equipment__activity_exception_icon
+#: model:ir.model.fields,help:hr_personal_equipment_request.field_hr_personal_equipment_request__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Піктограма для позначення дії-винятку."
+
+#. module: hr_personal_equipment_request
+#: model:ir.model.fields,help:hr_personal_equipment_request.field_hr_personal_equipment__message_needaction
+#: model:ir.model.fields,help:hr_personal_equipment_request.field_hr_personal_equipment_request__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Якщо позначено, нові повідомлення потребують вашої уваги."
+
+#. module: hr_personal_equipment_request
+#: model:ir.model.fields,help:hr_personal_equipment_request.field_hr_personal_equipment__message_has_error
+#: model:ir.model.fields,help:hr_personal_equipment_request.field_hr_personal_equipment_request__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
+
+#. module: hr_personal_equipment_request
+#: model:ir.model.fields,help:hr_personal_equipment_request.field_hr_personal_equipment__message_needaction_counter
+#: model:ir.model.fields,help:hr_personal_equipment_request.field_hr_personal_equipment_request__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Кількість повідомлень, що потребують дії"
+
+#. module: hr_personal_equipment_request
+#: model:ir.model.fields,help:hr_personal_equipment_request.field_hr_personal_equipment__message_has_error_counter
+#: model:ir.model.fields,help:hr_personal_equipment_request.field_hr_personal_equipment_request__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Кількість повідомлень із помилкою доставки"
+
+#. module: hr_personal_equipment_request
+#: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_employee__personal_equipment_count
+msgid "Personal Equipment Count"
+msgstr "Кількість персонального обладнання"
+
+#. module: hr_personal_equipment_request
+#: model:ir.model.fields,help:hr_personal_equipment_request.field_hr_personal_equipment__activity_state
+#: model:ir.model.fields,help:hr_personal_equipment_request.field_hr_personal_equipment_request__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"Стан на основі дій\n"
+"Прострочено: строк уже минув\n"
+"Сьогодні: дата дії — сьогодні\n"
+"Заплановано: майбутні дії."
+
+#. module: hr_personal_equipment_request
+#: model:ir.model.fields,help:hr_personal_equipment_request.field_hr_personal_equipment__activity_exception_decoration
+#: model:ir.model.fields,help:hr_personal_equipment_request.field_hr_personal_equipment_request__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Тип дії-винятку для запису."
+
+#. module: hr_personal_equipment_request
+#: model:ir.model.fields,help:hr_personal_equipment_request.field_hr_personal_equipment__website_message_ids
+#: model:ir.model.fields,help:hr_personal_equipment_request.field_hr_personal_equipment_request__website_message_ids
+msgid "Website communication history"
+msgstr "Історія комунікації через вебсайт"

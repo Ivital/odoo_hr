@@ -568,3 +568,249 @@ msgstr "Повідомлення вебсайту"
 #: model_terms:ir.ui.view,arch_db:hr_appraisal_oca.hr_appraisal_form_view
 msgid "once published"
 msgstr "після публікації"
+
+#. module: hr_appraisal_oca
+#: model_terms:ir.ui.view,arch_db:hr_appraisal_oca.view_employee_form
+msgid ""
+"<span class=\"o_stat_text\" invisible=\"last_appraisal_state == '3_done'\">\n"
+"                            Ongoing\n"
+"                        </span>\n"
+"                        <span class=\"o_stat_text\" invisible=\"last_appraisal_state != '3_done'\">\n"
+"                            Latest\n"
+"                        </span>\n"
+"                        <span class=\"o_stat_text\">\n"
+"                            Appraisal\n"
+"                        </span>"
+msgstr ""
+"<span class=\"o_stat_text\" invisible=\"last_appraisal_state == '3_done'\">\n"
+"                            Триває\n"
+"                        </span>\n"
+"                        <span class=\"o_stat_text\" invisible=\"last_appraisal_state != '3_done'\">\n"
+"                            Останнє\n"
+"                        </span>\n"
+"                        <span class=\"o_stat_text\">\n"
+"                            Оцінювання\n"
+"                        </span>"
+
+#. module: hr_appraisal_oca
+#: model_terms:ir.ui.view,arch_db:hr_appraisal_oca.hr_appraisal_form_view
+msgid "<span class=\"o_stat_text\">Appraisals</span>"
+msgstr "<span class=\"o_stat_text\">Оцінювання</span>"
+
+#. module: hr_appraisal_oca
+#: model_terms:ir.ui.view,arch_db:hr_appraisal_oca.hr_appraisal_form_view
+msgid ""
+"<span class=\"text-end\" invisible=\"employee_feedback_published\">Not Visible to Manager </span>\n"
+"                                                <span class=\"text-end\" invisible=\"not employee_feedback_published or state == '1_new'\">Visible to Manager </span>\n"
+"                                                <span class=\"text-end\" invisible=\"not employee_feedback_published or state != '1_new'\">Visible &amp; Editable by Manager </span>"
+msgstr ""
+"<span class=\"text-end\" invisible=\"employee_feedback_published\">Не видно керівнику </span>\n"
+"                                                <span class=\"text-end\" invisible=\"not employee_feedback_published or state == '1_new'\">Видно керівнику </span>\n"
+"                                                <span class=\"text-end\" invisible=\"not employee_feedback_published or state != '1_new'\">Видно й доступно для редагування керівником </span>"
+
+#. module: hr_appraisal_oca
+#: model_terms:ir.ui.view,arch_db:hr_appraisal_oca.hr_appraisal_form_view
+msgid ""
+"<span class=\"text-end\" invisible=\"manager_feedback_published or not can_see_manager_publish\">Not Visible to Employee </span>\n"
+"                                                <span class=\"text-end\" invisible=\"not manager_feedback_published or not can_see_manager_publish\">Visible to Employee </span>"
+msgstr ""
+"<span class=\"text-end\" invisible=\"manager_feedback_published or not can_see_manager_publish\">Не видно працівнику </span>\n"
+"                                                <span class=\"text-end\" invisible=\"not manager_feedback_published or not can_see_manager_publish\">Видно працівнику </span>"
+
+#. module: hr_appraisal_oca
+#: model:ir.actions.act_window,name:hr_appraisal_oca.hr_appraisal_wizard_action
+msgid "Appraisal Confirmation"
+msgstr "Підтвердження оцінювання"
+
+#. module: hr_appraisal_oca
+#: model_terms:ir.ui.view,arch_db:hr_appraisal_oca.res_config_settings_view_form
+msgid "Appraisal Feedback Templates"
+msgstr "Шаблони відгуків оцінювання"
+
+#. module: hr_appraisal_oca
+#: model:ir.actions.act_window,name:hr_appraisal_oca.hr_appraisal_request_wizard_action
+msgid "Appraisal Request Confirmation"
+msgstr "Підтвердження запиту на оцінювання"
+
+#. module: hr_appraisal_oca
+#: model_terms:ir.ui.view,arch_db:hr_appraisal_oca.res_config_settings_view_form
+msgid "Appraisal Settings"
+msgstr "Налаштування оцінювання"
+
+#. module: hr_appraisal_oca
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal__appraisal_template_id
+msgid "Appraisal Template"
+msgstr "Шаблон оцінювання"
+
+#. module: hr_appraisal_oca
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal_request_wizard__body_has_template_value
+msgid "Body content is the same as the template"
+msgstr "Вміст тіла такий самий, як у шаблоні"
+
+#. module: hr_appraisal_oca
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal__can_see_employee_publish
+msgid "Can See Employee Publish"
+msgstr "Може бачити публікацію працівника"
+
+#. module: hr_appraisal_oca
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal__can_see_manager_publish
+msgid "Can See Manager Publish"
+msgstr "Може бачити публікацію керівника"
+
+#. module: hr_appraisal_oca
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal__employee_feedback_published
+msgid "Employee Feedback Published"
+msgstr "Відгук працівника опубліковано"
+
+#. module: hr_appraisal_oca
+#: model_terms:ir.ui.view,arch_db:hr_appraisal_oca.hr_appraisal_form_view
+msgid "Employee feedback..."
+msgstr "Відгук працівника..."
+
+#. module: hr_appraisal_oca
+#: model_terms:ir.ui.view,arch_db:hr_appraisal_oca.hr_appraisal_form_view
+msgid "Employee's Feedback"
+msgstr "Відгук працівника"
+
+#. module: hr_appraisal_oca
+#: model:ir.model.fields,help:hr_appraisal_oca.field_hr_appraisal__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Піктограма Font Awesome, наприклад fa-tasks"
+
+#. module: hr_appraisal_oca
+#: model:ir.model.fields,help:hr_appraisal_oca.field_hr_appraisal__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Піктограма для позначення дії-винятку."
+
+#. module: hr_appraisal_oca
+#: model:ir.model.fields,help:hr_appraisal_oca.field_hr_appraisal__message_needaction
+#: model:ir.model.fields,help:hr_appraisal_oca.field_hr_appraisal_wizard__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Якщо позначено, нові повідомлення потребують вашої уваги."
+
+#. module: hr_appraisal_oca
+#: model:ir.model.fields,help:hr_appraisal_oca.field_hr_appraisal__message_has_error
+#: model:ir.model.fields,help:hr_appraisal_oca.field_hr_appraisal_wizard__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
+
+#. module: hr_appraisal_oca
+#: model_terms:ir.ui.view,arch_db:hr_appraisal_oca.hr_appraisal_form_view
+msgid "Manager Assessment will show here"
+msgstr "Оцінювання керівника з’явиться тут"
+
+#. module: hr_appraisal_oca
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal__manager_feedback_published
+msgid "Manager Feedback Published"
+msgstr "Відгук керівника опубліковано"
+
+#. module: hr_appraisal_oca
+#: model_terms:ir.ui.view,arch_db:hr_appraisal_oca.hr_appraisal_form_view
+msgid "Manager feedback..."
+msgstr "Відгук керівника..."
+
+#. module: hr_appraisal_oca
+#: model_terms:ir.ui.view,arch_db:hr_appraisal_oca.hr_appraisal_form_view
+msgid "Manager's Feedback"
+msgstr "Відгук керівника"
+
+#. module: hr_appraisal_oca
+#: model:ir.model.fields,help:hr_appraisal_oca.field_hr_appraisal__message_needaction_counter
+#: model:ir.model.fields,help:hr_appraisal_oca.field_hr_appraisal_wizard__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Кількість повідомлень, що потребують дії"
+
+#. module: hr_appraisal_oca
+#: model:ir.model.fields,help:hr_appraisal_oca.field_hr_appraisal__message_has_error_counter
+#: model:ir.model.fields,help:hr_appraisal_oca.field_hr_appraisal_wizard__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Кількість повідомлень із помилкою доставки"
+
+#. module: hr_appraisal_oca
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_employee__ongoing_appraisal_count
+msgid "Ongoing Appraisal Count"
+msgstr "Кількість поточних оцінювань"
+
+#. module: hr_appraisal_oca
+#: model_terms:ir.ui.view,arch_db:hr_appraisal_oca.hr_appraisal_form_view
+msgid "Private note (only accessible to people set as managers)"
+msgstr "Приватна примітка (доступна лише користувачам-менеджерам)"
+
+#. module: hr_appraisal_oca
+#: model:ir.model.fields,field_description:hr_appraisal_oca.field_hr_appraisal_request_wizard__recipient_users
+msgid "Recipients Users"
+msgstr "Користувачі-одержувачі"
+
+#. module: hr_appraisal_oca
+#: model_terms:ir.ui.view,arch_db:hr_appraisal_oca.hr_appraisal_form_view
+msgid "Self Assessment will show here"
+msgstr "Самооцінювання з’явиться тут"
+
+#. module: hr_appraisal_oca
+#: model_terms:ir.ui.view,arch_db:hr_appraisal_oca.res_config_settings_view_form
+msgid "Set default appraisal template"
+msgstr "Встановити шаблон оцінювання за замовчуванням"
+
+#. module: hr_appraisal_oca
+#: model:ir.model.fields,help:hr_appraisal_oca.field_hr_appraisal__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"Стан на основі дій\n"
+"Прострочено: строк уже минув\n"
+"Сьогодні: дата дії — сьогодні\n"
+"Заплановано: майбутні дії."
+
+#. module: hr_appraisal_oca
+#: model:ir.model.constraint,message:hr_appraisal_oca.constraint_hr_appraisal_tag_name_uniq
+msgid "Tag name already exists !"
+msgstr "Тег із такою назвою вже існує!"
+
+#. module: hr_appraisal_oca
+#: model_terms:ir.ui.view,arch_db:hr_appraisal_oca.hr_appraisal_wizard_form_view
+msgid ""
+"The employee's feedback will be published without their consent. Do you really want to publish it?\n"
+"                    This action will be logger in the chatter."
+msgstr ""
+"Відгук працівника буде опубліковано без його згоди. Ви справді хочете його опублікувати?\n"
+"                    Цю дію буде записано в чатері."
+
+#. module: hr_appraisal_oca
+#: model:ir.model.fields,help:hr_appraisal_oca.field_hr_appraisal__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Тип дії-винятку для запису."
+
+#. module: hr_appraisal_oca
+#: model_terms:ir.ui.view,arch_db:hr_appraisal_oca.hr_appraisal_template_form_view
+msgid ""
+"Use this area to write the content that will be displayed for the Employee."
+"                                         You can use a lot of options with "
+"the html editor, accessible by pressing / on the keyboard."
+msgstr ""
+"Використовуйте цю область для введення вмісту, який відображатиметься для "
+"працівника.                                         У HTML-редакторі "
+"доступно багато можливостей; щоб відкрити їх, натисніть / на клавіатурі."
+
+#. module: hr_appraisal_oca
+#: model:ir.model.fields.selection,name:hr_appraisal_oca.selection__hr_appraisal__visibility__manager
+msgid "Visible to managers"
+msgstr "Видимий керівникам"
+
+#. module: hr_appraisal_oca
+#: model:ir.model.fields,help:hr_appraisal_oca.field_hr_appraisal__website_message_ids
+#: model:ir.model.fields,help:hr_appraisal_oca.field_hr_appraisal_wizard__website_message_ids
+msgid "Website communication history"
+msgstr "Історія комунікації через вебсайт"
+
+#. module: hr_appraisal_oca
+#: model_terms:ir.ui.view,arch_db:hr_appraisal_oca.hr_appraisal_template_form_view
+msgid "e.g. Annual Appraisal"
+msgstr "напр. Щорічне оцінювання"
+
+#. module: hr_appraisal_oca
+#: model_terms:ir.ui.view,arch_db:hr_appraisal_oca.hr_appraisal_tag_form_view
+msgid "e.g. Remediation, Team, Improvement plan, Career change, ..."
+msgstr "наприклад, виправлення, команда, план покращення, зміна кар’єри, ..."

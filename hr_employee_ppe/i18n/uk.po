@@ -136,3 +136,66 @@ msgstr "Тижні"
 #: model_terms:ir.ui.view,arch_db:hr_employee_ppe.hr_employee_ppe_report_template
 msgid "is providing"
 msgstr "надає"
+
+#. module: hr_employee_ppe
+#: model_terms:ir.ui.view,arch_db:hr_employee_ppe.hr_employee_ppe_report_template
+msgid "<span>Date:</span>"
+msgstr "<span>Дата:</span>"
+
+#. module: hr_employee_ppe
+#: model_terms:ir.ui.view,arch_db:hr_employee_ppe.hr_employee_ppe_report_template
+msgid "<span>Signature:</span>"
+msgstr "<span>Підпис:</span>"
+
+#. module: hr_employee_ppe
+#: model_terms:ir.ui.view,arch_db:hr_employee_ppe.hr_personal_equipment_form_view
+msgid "Certification Information"
+msgstr "Інформація про сертифікацію"
+
+#. module: hr_employee_ppe
+#: model_terms:ir.ui.view,arch_db:hr_employee_ppe.hr_employee_ppe_report_template
+msgid ""
+"I agree to wear the equipment when facing the exposure it is designed to protect against.\n"
+"                            I acknowledge that my failure to do so may subject me to disciplinary action."
+msgstr ""
+"Я погоджуюся використовувати це обладнання під час роботи в умовах впливу, від якого воно призначене захищати.\n"
+"                            Я усвідомлюю, що невиконання цієї вимоги може спричинити дисциплінарні заходи."
+
+#. module: hr_employee_ppe
+#: model_terms:ir.ui.view,arch_db:hr_employee_ppe.hr_employee_ppe_report_template
+msgid ""
+"I, the undersigned accept the PPE that my employer is providing to me. I further acknowledge that I have been instructed\n"
+"                            in how to wear and maintain it. If it is lost or damaged, I will report the same to my employer promptly for replacement."
+msgstr ""
+"Я, нижчепідписаний(-а), приймаю ЗІЗ, які надає мені роботодавець. Також підтверджую, що мене проінструктовано\n"
+"                            щодо правил їх носіння та обслуговування. У разі втрати або пошкодження я негайно повідомлю роботодавця для заміни."
+
+#. module: hr_employee_ppe
+#: model_terms:ir.ui.view,arch_db:hr_employee_ppe.product_template_form_view
+msgid "PPE Interval Type"
+msgstr "Тип інтервалу ЗІЗ"
+
+#. module: hr_employee_ppe
+#: model:ir.actions.server,name:hr_employee_ppe.hr_employee_ppe_cron_ir_actions_server
+msgid "PPE's expiry date verification"
+msgstr "Перевірка строку дії ЗІЗ"
+
+#. module: hr_employee_ppe
+#: model_terms:ir.ui.view,arch_db:hr_employee_ppe.hr_personal_equipment_request_form_view
+msgid "Print Receipt of PPE"
+msgstr "Друкувати квитанцію ЗІЗ"
+
+#. module: hr_employee_ppe
+#: model_terms:ir.ui.view,arch_db:hr_employee_ppe.hr_employee_ppe_report_template
+msgid "Receipt of Personal Protection Equipment"
+msgstr "Отримання засобів індивідуального захисту"
+
+#. module: hr_employee_ppe
+#: model:ir.actions.report,name:hr_employee_ppe.hr_employee_ppe_report
+msgid "Receipt of Personal protection Equipment"
+msgstr "Отримання засобів індивідуального захисту"
+
+#. module: hr_employee_ppe
+#: model_terms:ir.ui.view,arch_db:hr_employee_ppe.hr_employee_ppe_report_template
+msgid "with the following Personal Protection Equipment (PPE):"
+msgstr "із такими засобами індивідуального захисту (ЗІЗ):"

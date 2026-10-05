@@ -171,3 +171,25 @@ msgstr "Дата публікації"
 #: model_terms:ir.ui.view,arch_db:hr_collective_agreement.view_form_collective_agreement
 msgid "Reset to Draft"
 msgstr "Повернути в чернетку"
+
+#. module: hr_collective_agreement
+#: model:ir.model.fields,field_description:hr_collective_agreement.field_collective_agreement__official_publication_id
+msgid "Official Publication"
+msgstr "Офіційна публікація"
+
+#. module: hr_collective_agreement
+#: model_terms:ir.ui.view,arch_db:hr_collective_agreement.view_form_collective_agreement
+msgid ""
+"The agreement validity period has not ended yet. Do you want to finish it "
+"anyway?"
+msgstr "Строк дії угоди ще не закінчився. Ви все одно хочете її завершити?"
+
+#. module: hr_collective_agreement
+#: model_terms:ir.ui.view,arch_db:hr_collective_agreement.view_form_collective_agreement
+msgid "This agreement has linked partners. Do you want to cancel it anyway?"
+msgstr "З цією угодою пов’язані партнери. Ви все одно хочете її скасувати?"
+
+#. module: hr_collective_agreement
+#: model_terms:ir.ui.view,arch_db:hr_collective_agreement.view_list_collective_agreement
+msgid "Update agreement states"
+msgstr "Оновити стани угод"

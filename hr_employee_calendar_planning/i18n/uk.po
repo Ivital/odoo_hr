@@ -93,3 +93,34 @@ msgstr "Останнє оновлення"
 #: model:ir.model.fields,field_description:hr_employee_calendar_planning.field_hr_employee_public__stored_is_flexible
 msgid "Stored Is Flexible"
 msgstr "Збережене значення гнучке"
+
+#. module: hr_employee_calendar_planning
+#: model:ir.model.fields,field_description:hr_employee_calendar_planning.field_resource_calendar__hours_per_day
+#: model_terms:ir.ui.view,arch_db:hr_employee_calendar_planning.resource_calendar_form
+msgid "Average Hour per Day"
+msgstr "Середня кількість годин на день"
+
+#. module: hr_employee_calendar_planning
+#: model:ir.model.fields,field_description:hr_employee_calendar_planning.field_hr_employee__calendar_ids
+msgid "Calendar planning"
+msgstr "Планування календаря"
+
+#. module: hr_employee_calendar_planning
+#: model_terms:ir.ui.view,arch_db:hr_employee_calendar_planning.resource_calendar_form
+msgid "Employee Calendars"
+msgstr "Календарі працівників"
+
+#. module: hr_employee_calendar_planning
+#: model:ir.model.fields,field_description:hr_employee_calendar_planning.field_resource_calendar__stored_flexible_hours
+msgid "Stored Flexible Hours"
+msgstr "Збережені гнучкі години"
+
+#. module: hr_employee_calendar_planning
+#: model:ir.model.fields,field_description:hr_employee_calendar_planning.field_resource_calendar__stored_full_time_required_hours
+msgid "Stored Full Time Required Hours"
+msgstr "Збережені обов’язкові години повної зайнятості"
+
+#. module: hr_employee_calendar_planning
+#: model:ir.model.fields,field_description:hr_employee_calendar_planning.field_resource_calendar__stored_hours_per_day
+msgid "Stored Hours Per Day"
+msgstr "Збережені години на день"

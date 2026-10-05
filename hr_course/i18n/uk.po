@@ -405,3 +405,67 @@ msgstr "Почати курс"
 #: model:ir.model.fields,field_description:hr_course.field_hr_course_schedule__website_message_ids
 msgid "Website Messages"
 msgstr "Повідомлення вебсайту"
+
+#. module: hr_course
+#: model:ir.model.fields,field_description:hr_course.field_hr_course__evaluation_criteria
+msgid "Evaluation Criteria"
+msgstr "Критерії оцінювання"
+
+#. module: hr_course
+#: model_terms:ir.ui.view,arch_db:hr_course.hr_course_form_view
+msgid "Evaluation criteria"
+msgstr "Критерії оцінювання"
+
+#. module: hr_course
+#: model:ir.model.fields,help:hr_course.field_hr_course__message_needaction
+#: model:ir.model.fields,help:hr_course.field_hr_course_schedule__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Якщо позначено, нові повідомлення потребують вашої уваги."
+
+#. module: hr_course
+#: model:ir.model.fields,help:hr_course.field_hr_course__message_has_error
+#: model:ir.model.fields,help:hr_course.field_hr_course_schedule__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
+
+#. module: hr_course
+#: model:ir.model.fields,field_description:hr_course.field_hr_employee__count_courses
+msgid "Number of courses"
+msgstr "Кількість курсів"
+
+#. module: hr_course
+#: model:ir.model.fields,help:hr_course.field_hr_course__message_needaction_counter
+#: model:ir.model.fields,help:hr_course.field_hr_course_schedule__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Кількість повідомлень, що потребують дії"
+
+#. module: hr_course
+#: model:ir.model.fields,help:hr_course.field_hr_course__message_has_error_counter
+#: model:ir.model.fields,help:hr_course.field_hr_course_schedule__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Кількість повідомлень із помилкою доставки"
+
+#. module: hr_course
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_schedule__training_company_id
+msgid "Training company"
+msgstr "Навчальна компанія"
+
+#. module: hr_course
+#: model:ir.model.fields.selection,name:hr_course.selection__hr_course_schedule__state__waiting_attendees
+msgid "Waiting attendees"
+msgstr "Очікувані учасники"
+
+#. module: hr_course
+#: model:ir.model.fields,help:hr_course.field_hr_course__website_message_ids
+#: model:ir.model.fields,help:hr_course.field_hr_course_schedule__website_message_ids
+msgid "Website communication history"
+msgstr "Історія комунікації через вебсайт"
+
+#. module: hr_course
+#: model_terms:ir.ui.view,arch_db:hr_course.hr_course_schedule_form_view
+msgid ""
+"You should set a course back to draft only if you cancelled it by mistake or"
+" if some of its information is incorrect. Do you want to continue?"
+msgstr ""
+"Повертати курс у чернетку слід лише якщо його було скасовано помилково або "
+"якщо деякі дані неправильні. Продовжити?"

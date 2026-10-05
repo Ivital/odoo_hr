@@ -87,3 +87,18 @@ msgstr "Останнє оновлення"
 #: model_terms:ir.ui.view,arch_db:hr_collective_agreement_partner.view_collective_agreement_tree_partner
 msgid "Unassign"
 msgstr "Зняти призначення"
+
+#. module: hr_collective_agreement_partner
+#: model_terms:ir.ui.view,arch_db:hr_collective_agreement_partner.view_collective_agreement_tree_partner
+msgid "Are you sure you want to remove this agreement from the partner?"
+msgstr "Ви впевнені, що хочете видалити цю угоду з контрагента?"
+
+#. module: hr_collective_agreement_partner
+#: model:ir.model.fields,field_description:hr_collective_agreement_partner.field_collective_agreement_assign_wizard__collective_agreement_ids
+msgid "Available Collective Agreements"
+msgstr "Доступні колективні угоди"
+
+#. module: hr_collective_agreement_partner
+#: model_terms:ir.ui.view,arch_db:hr_collective_agreement_partner.view_res_partner_filter
+msgid "Has Collective Agreement"
+msgstr "Є колективна угода"

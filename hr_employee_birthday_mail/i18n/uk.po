@@ -24,3 +24,13 @@ msgstr "Дозволити привітання з днем народження
 #: model:ir.model.fields,field_description:hr_employee_birthday_mail.field_res_users__notify_others_birthday
 msgid "Notify Others Birthday"
 msgstr "Сповіщати інших про день народження"
+
+#. module: hr_employee_birthday_mail
+#: model_terms:ir.ui.view,arch_db:hr_employee_birthday_mail.view_employee_form_inherit_birthday_notifications
+msgid "Birthdays Notifications"
+msgstr "Сповіщення про дні народження"
+
+#. module: hr_employee_birthday_mail
+#: model:ir.actions.server,name:hr_employee_birthday_mail.ir_cron_check_employee_birthdays_ir_actions_server
+msgid "Check Employee Birthdays"
+msgstr "Перевірити дні народження працівників"

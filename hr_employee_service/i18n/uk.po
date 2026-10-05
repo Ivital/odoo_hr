@@ -23,3 +23,38 @@ msgstr "Дата найму"
 #: model_terms:ir.ui.view,arch_db:hr_employee_service.view_employee_form_inherit_extension
 msgid "Service Duration"
 msgstr "Тривалість послуги"
+
+#. module: hr_employee_service
+#: model_terms:ir.ui.view,arch_db:hr_employee_service.view_employee_form_inherit_extension
+msgid "<span>day(s)</span>"
+msgstr "<span>дн.</span>"
+
+#. module: hr_employee_service
+#: model_terms:ir.ui.view,arch_db:hr_employee_service.view_employee_form_inherit_extension
+msgid "<span>month(s)</span>"
+msgstr "<span>міс.</span>"
+
+#. module: hr_employee_service
+#: model_terms:ir.ui.view,arch_db:hr_employee_service.view_employee_form_inherit_extension
+msgid "<span>year(s)</span>"
+msgstr "<span>р.</span>"
+
+#. module: hr_employee_service
+#: model:ir.model.fields,field_description:hr_employee_service.field_hr_employee__service_duration_days
+msgid "Service Duration (days)"
+msgstr "Тривалість послуги (дні)"
+
+#. module: hr_employee_service
+#: model:ir.model.fields,field_description:hr_employee_service.field_hr_employee__service_duration_months
+msgid "Service Duration (months)"
+msgstr "Тривалість послуги (місяці)"
+
+#. module: hr_employee_service
+#: model:ir.model.fields,field_description:hr_employee_service.field_hr_employee__service_duration_years
+msgid "Service Duration (years)"
+msgstr "Тривалість послуги (роки)"
+
+#. module: hr_employee_service
+#: model_terms:ir.ui.view,arch_db:hr_employee_service.view_employee_form_inherit_extension
+msgid "Service Information"
+msgstr "Інформація про послугу"

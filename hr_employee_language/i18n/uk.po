@@ -239,3 +239,103 @@ msgstr "Телугу / తెలుగు"
 #: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__th_th
 msgid "Thai / ภาษาไทย"
 msgstr "Тайська / ภาษาไทย"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__ar_001
+msgid "Arabic / الْعَرَبيّة"
+msgstr "Арабська / الْعَرَبيّة"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__nl_nl
+msgid "Dutch / Nederlands"
+msgstr "Нідерландська / Nederlands"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__et_ee
+msgid "Estonian / Eesti keel"
+msgstr "Естонська / Eesti keel"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__fr_fr
+msgid "French / Français"
+msgstr "Французька / Français"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__gl_es
+msgid "Galician / Galego"
+msgstr "Галісійська / Galego"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__gu_in
+msgid "Gujarati / ગુજરાતી"
+msgstr "Гуджараті / ગુજરાતી"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__hu_hu
+msgid "Hungarian / Magyar"
+msgstr "Угорська / Magyar"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__it_it
+msgid "Italian / Italiano"
+msgstr "Італійська / Italiano"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__kab_dz
+msgid "Kabyle / Taqbaylit"
+msgstr "Кабільська / Taqbaylit"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__km_kh
+msgid "Khmer / ភាសាខ្មែរ"
+msgstr "Кхмерська / ភាសាខ្មែរ"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__ms_my
+msgid "Malay / Bahasa Melayu"
+msgstr "Малайська / Bahasa Melayu"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__ml_in
+msgid "Malayalam / മലയാളം"
+msgstr "Малаялам / മലയാളം"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__mn_mn
+msgid "Mongolian / монгол"
+msgstr "Монгольська / монгол"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__pl_pl
+msgid "Polish / Język polski"
+msgstr "Польська / Język polski"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__ro_ro
+msgid "Romanian / română"
+msgstr "Румунська / română"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__es_es
+msgid "Spanish / Español"
+msgstr "Іспанська / Español"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__sw
+msgid "Swahili / Kiswahili"
+msgstr "Суахілі / Kiswahili"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__sv_se
+msgid "Swedish / Svenska"
+msgstr "Шведська / Svenska"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__tl_ph
+msgid "Tagalog / Filipino"
+msgstr "Тагальська / Filipino"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__tr_tr
+msgid "Turkish / Türkçe"
+msgstr "Турецька / Türkçe"
