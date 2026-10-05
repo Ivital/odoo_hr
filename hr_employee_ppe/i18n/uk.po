@@ -223,3 +223,9 @@ msgstr ""
 #: model:ir.model.fields,help:hr_employee_ppe.field_hr_personal_equipment__expire_ppe
 msgid "True if the PPE expires"
 msgstr "Істина, якщо ЗІЗ має строк придатності"
+
+#. module: hr_employee_ppe
+#. odoo-python
+#: code:addons/hr_employee_ppe/models/hr_personal_equipment.py:0
+msgid "End date cannot occur earlier than start date."
+msgstr "Дата завершення не може бути раніше дати початку."

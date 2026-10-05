@@ -485,3 +485,15 @@ msgstr "Категорія курсу"
 #: code:addons/hr_course/models/hr_course_schedule.py:0
 msgid "The start date cannot be later than the end date."
 msgstr "Дата початку не може бути пізнішою за дату завершення."
+
+#. module: hr_course
+#. odoo-python
+#: code:addons/hr_course/models/hr_course_schedule.py:0
+msgid "Employees removed from this course: <br></br>%s"
+msgstr "Працівників видалено з цього курсу: <br></br>%s"
+
+#. module: hr_course
+#. odoo-python
+#: code:addons/hr_course/models/hr_course_schedule.py:0
+msgid "You cannot complete the course with pending results"
+msgstr "Не можна завершити курс за наявності результатів, що очікують"

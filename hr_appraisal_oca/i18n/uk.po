@@ -948,3 +948,37 @@ msgstr "{{ user.name or ''}} запитує оцінювання"
 #: model:mail.template,subject:hr_appraisal_oca.mail_template_appraisal_confirmation
 msgid "{{object.employee_id.name}}: Appraisal Confirmed"
 msgstr "{{object.employee_id.name}}: оцінювання підтверджено"
+
+#. module: hr_appraisal_oca
+#. odoo-python
+#: code:addons/hr_appraisal_oca/models/hr_appraisal.py:0
+msgid "Appraisal Form to Fill"
+msgstr "Форма оцінювання для заповнення"
+
+#. module: hr_appraisal_oca
+#. odoo-python
+#: code:addons/hr_appraisal_oca/models/hr_employee.py:0
+msgid "New and Pending Appraisals"
+msgstr "Нові та очікувані оцінювання"
+
+#. module: hr_appraisal_oca
+#. odoo-python
+#: code:addons/hr_appraisal_oca/models/hr_appraisal.py:0
+msgid "Previous Appraisals"
+msgstr "Попередні оцінювання"
+
+#. module: hr_appraisal_oca
+#. odoo-python
+#: code:addons/hr_appraisal_oca/wizard/send_mail_with_template_wizard.py:0
+msgid "Template with XML ID {template_xml_id} not found."
+msgstr "Шаблон з XML ID {template_xml_id} не знайдено."
+
+#. module: hr_appraisal_oca
+#. odoo-python
+#: code:addons/hr_appraisal_oca/wizard/hr_appraisal_wizard.py:0
+msgid ""
+"{user_name} decided, as Appraisal Officer, to publish the employee's "
+"feedback"
+msgstr ""
+"{user_name} як відповідальний за оцінювання вирішив опублікувати відгук "
+"працівника"

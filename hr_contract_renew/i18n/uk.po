@@ -69,3 +69,15 @@ msgstr "Поновити договір"
 #: model:ir.model,name:hr_contract_renew.model_hr_contract_renew_wizard
 msgid "HR Contract Renew Wizard"
 msgstr "Майстер поновлення HR-договору"
+
+#. module: hr_contract_renew
+#. odoo-python
+#: code:addons/hr_contract_renew/wizards/hr_contract_renew_wizard.py:0
+msgid "Extend Contract for %s"
+msgstr "Продовжити договір для %s"
+
+#. module: hr_contract_renew
+#. odoo-python
+#: code:addons/hr_contract_renew/wizards/hr_contract_renew_wizard.py:0
+msgid "New Contract"
+msgstr "Новий договір"

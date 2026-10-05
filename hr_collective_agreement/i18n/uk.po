@@ -225,3 +225,39 @@ msgstr "Назва має бути унікальною"
 #: model:ir.model.constraint,message:hr_collective_agreement.constraint_collective_agreement_scope_name_uniq
 msgid "The name must be unique."
 msgstr "Назва має бути унікальною."
+
+#. module: hr_collective_agreement
+#. odoo-python
+#: code:addons/hr_collective_agreement/models/collective_agreement.py:0
+msgid ""
+"The collective agreements \"%s\" cannot be activated because their end date "
+"has already passed."
+msgstr ""
+"Колективні угоди «%s» не можна активувати, оскільки їх дата завершення вже "
+"минула."
+
+#. module: hr_collective_agreement
+#. odoo-python
+#: code:addons/hr_collective_agreement/models/collective_agreement.py:0
+msgid ""
+"The collective agreements \"%s\" cannot be cancelled because they are "
+"already finished or cancelled."
+msgstr ""
+"Колективні угоди «%s» не можна скасувати, оскільки вони вже завершені або "
+"скасовані."
+
+#. module: hr_collective_agreement
+#. odoo-python
+#: code:addons/hr_collective_agreement/models/collective_agreement.py:0
+msgid ""
+"The collective agreements \"%s\" cannot be finished because they are not in "
+"active state."
+msgstr ""
+"Колективні угоди «%s» не можна завершити, оскільки вони не в активному "
+"стані."
+
+#. module: hr_collective_agreement
+#. odoo-python
+#: code:addons/hr_collective_agreement/models/collective_agreement.py:0
+msgid "The end date cannot be earlier than the publication date."
+msgstr "Дата завершення не може бути раніше дати публікації."

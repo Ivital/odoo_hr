@@ -79,3 +79,9 @@ msgstr ""
 #: model:ir.model.constraint,message:hr_employee_id.constraint_hr_employee_identification_id_uniq
 msgid "The Employee Number must be unique across the company(s)."
 msgstr "Номер працівника має бути унікальним у межах компанії (компаній)."
+
+#. module: hr_employee_id
+#. odoo-python
+#: code:addons/hr_employee_id/models/hr_employee.py:0
+msgid "Unable to generate unique Employee ID in %d steps."
+msgstr "Не вдалося створити унікальний ID працівника за %d кроків."

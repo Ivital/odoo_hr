@@ -412,3 +412,9 @@ msgstr "Медичний огляд працівника"
 #: model:ir.model,name:hr_employee_medical_examination.model_wizard_generate_medical_examination
 msgid "Generation wizard for medical examinations"
 msgstr "Майстер створення медичних оглядів"
+
+#. module: hr_employee_medical_examination
+#. odoo-python
+#: code:addons/hr_employee_medical_examination/wizards/wizard_generate_medical_examination.py:0
+msgid "%(name)s on %(employee)s"
+msgstr "%(name)s для %(employee)s"

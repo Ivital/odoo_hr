@@ -430,3 +430,10 @@ msgstr "Тип дії-винятку для запису."
 #: model:ir.model.fields,help:hr_personal_equipment_request.field_hr_personal_equipment_request__website_message_ids
 msgid "Website communication history"
 msgstr "Історія комунікації через вебсайт"
+
+#. module: hr_personal_equipment_request
+#. odoo-python
+#: code:addons/hr_personal_equipment_request/models/hr_personal_equipment_request.py:0
+#: code:addons/hr_personal_equipment_request/tests/test_hr_personal_equipment_request.py:0
+msgid "Personal Equipment Request by %s"
+msgstr "Запит на персональне обладнання від %s"

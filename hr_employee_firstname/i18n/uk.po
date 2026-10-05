@@ -23,3 +23,9 @@ msgstr "Порядок імен працівників"
 #: model:ir.model.fields,help:hr_employee_firstname.field_res_config_settings__employee_names_order
 msgid "Order to compose employee fullname"
 msgstr "Порядок формування повного імені працівника"
+
+#. module: hr_employee_firstname
+#. odoo-python
+#: code:addons/hr_employee_firstname/models/hr_employee.py:0
+msgid "No name set."
+msgstr "Ім’я не задано."
