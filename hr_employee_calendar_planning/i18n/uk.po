@@ -124,3 +124,36 @@ msgstr "Збережені обов’язкові години повної з�
 #: model:ir.model.fields,field_description:hr_employee_calendar_planning.field_resource_calendar__stored_hours_per_day
 msgid "Stored Hours Per Day"
 msgstr "Збережені години на день"
+
+#. module: hr_employee_calendar_planning
+#: model:ir.model.fields,help:hr_employee_calendar_planning.field_resource_calendar__hours_per_day
+#: model:ir.model.fields,help:hr_employee_calendar_planning.field_resource_calendar__stored_hours_per_day
+msgid ""
+"Average hours per day a resource is supposed to work with this calendar."
+msgstr ""
+"Середня кількість робочих годин на день для ресурсу за цим календарем."
+
+#. module: hr_employee_calendar_planning
+#: model:ir.model.constraint,message:hr_employee_calendar_planning.constraint_hr_employee_calendar_date_consistency
+msgid "Date end should be higher than date start"
+msgstr "Дата завершення має бути пізнішою за дату початку"
+
+#. module: hr_employee_calendar_planning
+#: model:ir.model.fields,help:hr_employee_calendar_planning.field_resource_calendar__full_time_required_hours
+#: model:ir.model.fields,help:hr_employee_calendar_planning.field_resource_calendar__stored_full_time_required_hours
+msgid ""
+"Number of hours to work on the company schedule to be considered as "
+"fulltime."
+msgstr ""
+"Кількість годин роботи за графіком компанії, необхідна для визнання повної "
+"зайнятості."
+
+#. module: hr_employee_calendar_planning
+#: model:ir.model.fields,help:hr_employee_calendar_planning.field_resource_calendar__flexible_hours
+#: model:ir.model.fields,help:hr_employee_calendar_planning.field_resource_calendar__stored_flexible_hours
+msgid ""
+"When enabled, it will allow employees to work flexibly, without relying on "
+"the company's working schedule (working hours)."
+msgstr ""
+"Якщо ввімкнено, працівники зможуть працювати гнучко, не залежачи від "
+"робочого графіка компанії."

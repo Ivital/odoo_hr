@@ -83,3 +83,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_personal_equipment_stock.field_hr_personal_equipment__skip_procurement
 msgid "Skip Procurement"
 msgstr "Пропустити забезпечення"
+
+#. module: hr_personal_equipment_stock
+#: model:ir.model,name:hr_personal_equipment_stock.model_hr_personal_equipment
+msgid "Adds personal equipment information and allocation"
+msgstr "Додає інформацію про персональне обладнання та його розподіл"
+
+#. module: hr_personal_equipment_stock
+#: model:ir.model,name:hr_personal_equipment_stock.model_hr_personal_equipment_request
+msgid "This model allows to create a personal equipment request"
+msgstr "Ця модель дає змогу створити запит на персональне обладнання"

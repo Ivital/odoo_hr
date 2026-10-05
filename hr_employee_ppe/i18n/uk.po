@@ -199,3 +199,27 @@ msgstr "Отримання засобів індивідуального зах�
 #: model_terms:ir.ui.view,arch_db:hr_employee_ppe.hr_employee_ppe_report_template
 msgid "with the following Personal Protection Equipment (PPE):"
 msgstr "із такими засобами індивідуального захисту (ЗІЗ):"
+
+#. module: hr_employee_ppe
+#: model:ir.model.fields,help:hr_employee_ppe.field_product_product__expirable_ppe
+#: model:ir.model.fields,help:hr_employee_ppe.field_product_template__expirable_ppe
+msgid "Select this option if the PPE has expiry date."
+msgstr "Виберіть цей параметр, якщо ЗІЗ має строк придатності."
+
+#. module: hr_employee_ppe
+#: model:ir.model.fields,help:hr_employee_ppe.field_hr_personal_equipment__indications
+msgid "Situations in which the employee should use this equipment."
+msgstr "Ситуації, у яких працівник має використовувати це обладнання."
+
+#. module: hr_employee_ppe
+#: model:ir.model.fields,help:hr_employee_ppe.field_product_product__indications
+#: model:ir.model.fields,help:hr_employee_ppe.field_product_template__indications
+msgid ""
+"Situations in which the employee should use this equipment. Only for ppe"
+msgstr ""
+"Ситуації, у яких працівник має використовувати це обладнання. Лише для ЗІЗ"
+
+#. module: hr_employee_ppe
+#: model:ir.model.fields,help:hr_employee_ppe.field_hr_personal_equipment__expire_ppe
+msgid "True if the PPE expires"
+msgstr "Істина, якщо ЗІЗ має строк придатності"

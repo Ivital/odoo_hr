@@ -32,3 +32,31 @@ msgstr "Останній договір"
 #: model:ir.model.fields,field_description:hr_employee_service_contract.field_hr_employee__service_termination_date
 msgid "Termination Date"
 msgstr "Дата припинення"
+
+#. module: hr_employee_service_contract
+#: model:ir.model.fields,help:hr_employee_service_contract.field_hr_employee__first_contract_id
+msgid "First contract of the employee"
+msgstr "Перший договір працівника"
+
+#. module: hr_employee_service_contract
+#: model:ir.model.fields,help:hr_employee_service_contract.field_hr_employee__last_contract_id
+msgid "Last contract of the employee"
+msgstr "Останній договір працівника"
+
+#. module: hr_employee_service_contract
+#: model:ir.model.fields,help:hr_employee_service_contract.field_hr_employee__service_start_date
+msgid ""
+"Start date is the first day the employee actually works and this date is "
+"used for accrual leave allocations calculation"
+msgstr ""
+"Дата початку — перший день фактичної роботи працівника; вона "
+"використовується для розрахунку накопичуваних відпусток"
+
+#. module: hr_employee_service_contract
+#: model:ir.model.fields,help:hr_employee_service_contract.field_hr_employee__service_termination_date
+msgid ""
+"Termination date is the last day the employee actually works and this date "
+"is used for accrual leave allocations calculation"
+msgstr ""
+"Дата завершення — останній день фактичної роботи працівника; вона "
+"використовується для розрахунку накопичуваних відпусток"

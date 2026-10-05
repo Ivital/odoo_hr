@@ -193,3 +193,35 @@ msgstr "З цією угодою пов’язані партнери. Ви вс
 #: model_terms:ir.ui.view,arch_db:hr_collective_agreement.view_list_collective_agreement
 msgid "Update agreement states"
 msgstr "Оновити стани угод"
+
+#. module: hr_collective_agreement
+#. odoo-python
+#: code:addons/hr_collective_agreement/models/collective_agreement.py:0
+msgid "%s (copy)"
+msgstr "%s (копія)"
+
+#. module: hr_collective_agreement
+#: model:ir.model,name:hr_collective_agreement.model_collective_agreement_official_publication
+msgid "Collective Agreement Official Publication"
+msgstr "Офіційна публікація колективної угоди"
+
+#. module: hr_collective_agreement
+#: model:ir.model,name:hr_collective_agreement.model_collective_agreement_scope
+msgid "Collective Agreement Scope"
+msgstr "Сфера колективної угоди"
+
+#. module: hr_collective_agreement
+#: model:ir.model.constraint,message:hr_collective_agreement.constraint_collective_agreement_code_uniq
+msgid "The code must be unique"
+msgstr "Код має бути унікальним"
+
+#. module: hr_collective_agreement
+#: model:ir.model.constraint,message:hr_collective_agreement.constraint_collective_agreement_name_uniq
+msgid "The name must be unique"
+msgstr "Назва має бути унікальною"
+
+#. module: hr_collective_agreement
+#: model:ir.model.constraint,message:hr_collective_agreement.constraint_collective_agreement_official_publication_name_uniq
+#: model:ir.model.constraint,message:hr_collective_agreement.constraint_collective_agreement_scope_name_uniq
+msgid "The name must be unique."
+msgstr "Назва має бути унікальною."

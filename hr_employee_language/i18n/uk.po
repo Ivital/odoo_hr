@@ -339,3 +339,13 @@ msgstr "Тагальська / Filipino"
 #: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__tr_tr
 msgid "Turkish / Türkçe"
 msgstr "Турецька / Türkçe"
+
+#. module: hr_employee_language
+#: model:ir.model,name:hr_employee_language.model_hr_employee_language
+msgid "HR Employee Language"
+msgstr "Мова працівника HR"
+
+#. module: hr_employee_language
+#: model:ir.model.fields,help:hr_employee_language.field_hr_employee__language_ids
+msgid "Languages of this employee"
+msgstr "Мови цього працівника"

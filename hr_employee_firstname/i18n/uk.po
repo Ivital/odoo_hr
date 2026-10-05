@@ -18,3 +18,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_employee_firstname.res_config_settings_view_form
 msgid "Employee Names Order"
 msgstr "Порядок імен працівників"
+
+#. module: hr_employee_firstname
+#: model:ir.model.fields,help:hr_employee_firstname.field_res_config_settings__employee_names_order
+msgid "Order to compose employee fullname"
+msgstr "Порядок формування повного імені працівника"

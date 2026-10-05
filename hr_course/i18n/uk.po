@@ -469,3 +469,19 @@ msgid ""
 msgstr ""
 "Повертати курс у чернетку слід лише якщо його було скасовано помилково або "
 "якщо деякі дані неправильні. Продовжити?"
+
+#. module: hr_course
+#: model:ir.model.constraint,message:hr_course.constraint_hr_course_category_name_uniq
+msgid "Category already exists !"
+msgstr "Категорія вже існує!"
+
+#. module: hr_course
+#: model:ir.model,name:hr_course.model_hr_course_category
+msgid "Course Category"
+msgstr "Категорія курсу"
+
+#. module: hr_course
+#. odoo-python
+#: code:addons/hr_course/models/hr_course_schedule.py:0
+msgid "The start date cannot be later than the end date."
+msgstr "Дата початку не може бути пізнішою за дату завершення."

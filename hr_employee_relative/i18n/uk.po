@@ -142,3 +142,43 @@ msgstr "Інше"
 #: model_terms:ir.ui.view,arch_db:hr_employee_relative.hr_employee_view_form
 msgid "Relatives"
 msgstr "Родичі"
+
+#. module: hr_employee_relative
+#: model:hr.employee.relative.relation,name:hr_employee_relative.relation_cousin
+msgid "Cousin"
+msgstr "Двоюрідний родич"
+
+#. module: hr_employee_relative
+#: model:hr.employee.relative.relation,name:hr_employee_relative.relation_grandchild
+msgid "Grandchild"
+msgstr "Онук/онука"
+
+#. module: hr_employee_relative
+#: model:hr.employee.relative.relation,name:hr_employee_relative.relation_grandparent
+msgid "Grandparent"
+msgstr "Дідусь/бабуся"
+
+#. module: hr_employee_relative
+#: model:ir.model,name:hr_employee_relative.model_hr_employee_relative
+msgid "HR Employee Relative"
+msgstr "Родич працівника HR"
+
+#. module: hr_employee_relative
+#: model:ir.model,name:hr_employee_relative.model_hr_employee_relative_relation
+msgid "HR Employee Relative Relation"
+msgstr "Зв’язок родича працівника HR"
+
+#. module: hr_employee_relative
+#: model:hr.employee.relative.relation,name:hr_employee_relative.relation_sibling
+msgid "Sibling"
+msgstr "Брат/сестра"
+
+#. module: hr_employee_relative
+#: model:hr.employee.relative.relation,name:hr_employee_relative.relation_significant_other
+msgid "Significant Other"
+msgstr "Близька людина"
+
+#. module: hr_employee_relative
+#: model:hr.employee.relative.relation,name:hr_employee_relative.relation_spouse
+msgid "Spouse"
+msgstr "Подружжя"

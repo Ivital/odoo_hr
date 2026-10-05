@@ -58,3 +58,16 @@ msgstr "Тривалість послуги (роки)"
 #: model_terms:ir.ui.view,arch_db:hr_employee_service.view_employee_form_inherit_extension
 msgid "Service Information"
 msgstr "Інформація про послугу"
+
+#. module: hr_employee_service
+#: model:ir.model.fields,help:hr_employee_service.field_hr_employee__service_hire_date
+msgid ""
+"Hire date is normally the date an employee completes new hire paperwork"
+msgstr ""
+"Дата найму зазвичай є датою, коли працівник завершує оформлення документів "
+"при прийнятті на роботу"
+
+#. module: hr_employee_service
+#: model:ir.model.fields,help:hr_employee_service.field_hr_employee__service_duration
+msgid "Service duration in days"
+msgstr "Тривалість послуги в днях"

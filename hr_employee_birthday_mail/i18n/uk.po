@@ -34,3 +34,83 @@ msgstr "Сповіщення про дні народження"
 #: model:ir.actions.server,name:hr_employee_birthday_mail.ir_cron_check_employee_birthdays_ir_actions_server
 msgid "Check Employee Birthdays"
 msgstr "Перевірити дні народження працівників"
+
+#. module: hr_employee_birthday_mail
+#: model:mail.template,name:hr_employee_birthday_mail.email_template_birthday_1
+msgid "Birthday Email 1"
+msgstr "Лист до дня народження 1"
+
+#. module: hr_employee_birthday_mail
+#: model:mail.template,name:hr_employee_birthday_mail.email_template_birthday_2
+msgid "Birthday Email 2"
+msgstr "Лист до дня народження 2"
+
+#. module: hr_employee_birthday_mail
+#: model:mail.template,name:hr_employee_birthday_mail.email_template_birthday_3
+msgid "Birthday Email 3"
+msgstr "Лист до дня народження 3"
+
+#. module: hr_employee_birthday_mail
+#: model:ir.model.fields,help:hr_employee_birthday_mail.field_hr_employee__allow_birthday_wishes
+#: model:ir.model.fields,help:hr_employee_birthday_mail.field_res_users__allow_birthday_wishes
+msgid ""
+"Check this box if you want to allow birthday wishes from our company and "
+"allow the others to be notified of your birthday."
+msgstr ""
+"Позначте, якщо хочете дозволити привітання з днем народження від нашої "
+"компанії та сповіщення інших про ваш день народження."
+
+#. module: hr_employee_birthday_mail
+#: model:ir.model.fields,help:hr_employee_birthday_mail.field_hr_employee__notify_others_birthday
+#: model:ir.model.fields,help:hr_employee_birthday_mail.field_res_users__notify_others_birthday
+msgid ""
+"Check this box if you want to be notified about other coworkers' birthdays."
+msgstr ""
+"Позначте, якщо хочете отримувати сповіщення про дні народження інших колег."
+
+#. module: hr_employee_birthday_mail
+#: model:mail.template,name:hr_employee_birthday_mail.email_template_coworkers_1
+msgid "Coworker's Birthday Email 1"
+msgstr "Лист до дня народження колеги 1"
+
+#. module: hr_employee_birthday_mail
+#: model:mail.template,name:hr_employee_birthday_mail.email_template_coworkers_2
+msgid "Coworker's Birthday Email 2"
+msgstr "Лист до дня народження колеги 2"
+
+#. module: hr_employee_birthday_mail
+#: model:mail.template,name:hr_employee_birthday_mail.email_template_coworkers_3
+msgid "Coworker's Birthday Email 3"
+msgstr "Лист до дня народження колеги 3"
+
+#. module: hr_employee_birthday_mail
+#: model:mail.template,subject:hr_employee_birthday_mail.email_template_birthday_2
+msgid "🎂 Celebrating You Today, {{ object.name }}!"
+msgstr "🎂 Сьогодні святкуємо вас, {{ object.name }}!"
+
+#. module: hr_employee_birthday_mail
+#: model:mail.template,subject:hr_employee_birthday_mail.email_template_birthday_1
+msgid "🎂 Happy Birthday, {{ object.name }}!"
+msgstr "🎂 З днем народження, {{ object.name }}!"
+
+#. module: hr_employee_birthday_mail
+#: model:mail.template,subject:hr_employee_birthday_mail.email_template_birthday_3
+msgid "🎂 {{ object.name }}!, It's Your Day!"
+msgstr "🎂 {{ object.name }}! Це ваш день!"
+
+#. module: hr_employee_birthday_mail
+#: model:mail.template,subject:hr_employee_birthday_mail.email_template_coworkers_1
+msgid "🎉 Birthday Alert: It's {{ ctx['birthday_employee'] }}'s special day!"
+msgstr ""
+"🎉 Нагадування про день народження: сьогодні особливий день {{ "
+"ctx['birthday_employee'] }}!"
+
+#. module: hr_employee_birthday_mail
+#: model:mail.template,subject:hr_employee_birthday_mail.email_template_coworkers_2
+msgid "🎉 Cake Alert: {{ ctx['birthday_employee']}}"
+msgstr "🎉 Торт на підході: {{ ctx['birthday_employee']}}"
+
+#. module: hr_employee_birthday_mail
+#: model:mail.template,subject:hr_employee_birthday_mail.email_template_coworkers_3
+msgid "🎉 Time to Celebrate: {{ ctx['birthday_employee'] }}'s Birthday!"
+msgstr "🎉 Час святкувати: день народження {{ ctx['birthday_employee'] }}!"

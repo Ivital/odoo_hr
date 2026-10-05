@@ -402,3 +402,13 @@ msgstr "Тип дії-винятку для запису."
 #: model:ir.model.fields,help:hr_employee_medical_examination.field_hr_employee_medical_examination__website_message_ids
 msgid "Website communication history"
 msgstr "Історія комунікації через вебсайт"
+
+#. module: hr_employee_medical_examination
+#: model:ir.model,name:hr_employee_medical_examination.model_hr_employee_medical_examination
+msgid "Employee Medical Examination"
+msgstr "Медичний огляд працівника"
+
+#. module: hr_employee_medical_examination
+#: model:ir.model,name:hr_employee_medical_examination.model_wizard_generate_medical_examination
+msgid "Generation wizard for medical examinations"
+msgstr "Майстер створення медичних оглядів"

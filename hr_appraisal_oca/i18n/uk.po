@@ -814,3 +814,137 @@ msgstr "напр. Щорічне оцінювання"
 #: model_terms:ir.ui.view,arch_db:hr_appraisal_oca.hr_appraisal_tag_form_view
 msgid "e.g. Remediation, Team, Improvement plan, Career change, ..."
 msgstr "наприклад, виправлення, команда, план покращення, зміна кар’єри, ..."
+
+#. module: hr_appraisal_oca
+#: model:ir.model.fields,help:hr_appraisal_oca.field_hr_appraisal__date_close
+msgid "Closing date of the current appraisal"
+msgstr "Дата завершення поточного оцінювання"
+
+#. module: hr_appraisal_oca
+#: model:ir.model.fields,help:hr_appraisal_oca.field_res_config_settings__appraisal_default_template_id
+msgid "Default template used for appraisals"
+msgstr "Шаблон за замовчуванням для оцінювання"
+
+#. module: hr_appraisal_oca
+#: model:ir.model,name:hr_appraisal_oca.model_hr_appraisal
+msgid "Employee Appraisal"
+msgstr "Оцінювання працівника"
+
+#. module: hr_appraisal_oca
+#: model:ir.model,name:hr_appraisal_oca.model_hr_appraisal_template
+msgid "HR Appraisal Templates"
+msgstr "Шаблони оцінювання HR"
+
+#. module: hr_appraisal_oca
+#: model:res.groups,name:hr_appraisal_oca.group_appraisal_hr_officer
+msgid "HR Officer"
+msgstr "Фахівець HR"
+
+#. module: hr_appraisal_oca
+#: model:mail.template,name:hr_appraisal_oca.mail_template_appraisal_completed
+msgid "HR: Appraisal Completed"
+msgstr "HR: оцінювання завершено"
+
+#. module: hr_appraisal_oca
+#: model:mail.template,name:hr_appraisal_oca.mail_template_appraisal_confirmation
+msgid "HR: Appraisal Confirmation"
+msgstr "HR: підтвердження оцінювання"
+
+#. module: hr_appraisal_oca
+#: model:mail.template,name:hr_appraisal_oca.mail_template_appraisal_request_from_employee
+msgid "HR: Employee Appraisal Request"
+msgstr "HR: запит на оцінювання працівника"
+
+#. module: hr_appraisal_oca
+#: model:mail.template,name:hr_appraisal_oca.mail_template_appraisal_request
+msgid "HR: Manager appraisal request"
+msgstr "HR: запит на оцінювання керівником"
+
+#. module: hr_appraisal_oca
+#: model:ir.module.category,description:hr_appraisal_oca.module_category_hr_appraisal
+msgid "Helps to evaluate employees..."
+msgstr "Допомагає оцінювати працівників..."
+
+#. module: hr_appraisal_oca
+#: model:ir.model.fields,help:hr_appraisal_oca.field_hr_appraisal__visibility
+msgid ""
+"If set to 'Visible to managers', the appraisal is only visible to managers "
+"and HR officers."
+msgstr ""
+"Якщо встановлено «Видимий керівникам», оцінювання бачать лише керівники та "
+"працівники HR."
+
+#. module: hr_appraisal_oca
+#: model:ir.model.fields,help:hr_appraisal_oca.field_hr_appraisal_request_wizard__lang
+msgid ""
+"Optional translation language (ISO code) to select when sending out an "
+"email. If not set, the english version will be used. This should usually be "
+"a placeholder expression that provides the appropriate language, e.g. {{ "
+"object.partner_id.lang }}."
+msgstr ""
+"Необов'язкова мова перекладу (ISO-код), яку слід вибирати під час надсилання"
+" електронного листа. Якщо не задано, використовуватиметься англійська "
+"версія. Зазвичай це має бути вираз-заповнювач, який надає відповідну мову, "
+"наприклад {{ object.partner_id.lang }}."
+
+#. module: hr_appraisal_oca
+#: model:ir.model,name:hr_appraisal_oca.model_hr_appraisal_request_wizard
+msgid "Request an Appraisal"
+msgstr "Запитати оцінювання"
+
+#. module: hr_appraisal_oca
+#: model:ir.model,name:hr_appraisal_oca.model_send_email_with_template
+msgid "Sending Email with Template"
+msgstr "Надсилання email за шаблоном"
+
+#. module: hr_appraisal_oca
+#: model:mail.template,description:hr_appraisal_oca.mail_template_appraisal_completed
+msgid ""
+"Sent automatically to both employee and manager when appraisal is completed"
+msgstr ""
+"Автоматично надсилається працівнику й керівнику після завершення оцінювання"
+
+#. module: hr_appraisal_oca
+#: model:mail.template,description:hr_appraisal_oca.mail_template_appraisal_confirmation
+msgid ""
+"Sent automatically to both employee and manager when appraisal is confirmed"
+msgstr ""
+"Автоматично надсилається працівнику й керівнику після підтвердження "
+"оцінювання"
+
+#. module: hr_appraisal_oca
+#: model:mail.template,description:hr_appraisal_oca.mail_template_appraisal_request
+msgid ""
+"Sent manually to the employee by the manager who wants to do an appraisal"
+msgstr ""
+"Надсилається працівнику вручну керівником, який хоче провести оцінювання"
+
+#. module: hr_appraisal_oca
+#: model:mail.template,description:hr_appraisal_oca.mail_template_appraisal_request_from_employee
+msgid "Sent manually to the manager by the employee who wants an appraisal"
+msgstr "Надсилається вручну керівнику працівником, який бажає оцінювання"
+
+#. module: hr_appraisal_oca
+#: model:ir.model.fields,help:hr_appraisal_oca.field_hr_appraisal__note
+msgid "The content of this note is not visible by the Employee."
+msgstr "Вміст цієї примітки не видимий працівнику."
+
+#. module: hr_appraisal_oca
+#: model:ir.model,name:hr_appraisal_oca.model_hr_appraisal_wizard
+msgid "Wizard for feedback visibility confirmation to manager"
+msgstr "Майстер підтвердження видимості зворотного зв’язку для керівника"
+
+#. module: hr_appraisal_oca
+#: model:mail.template,subject:hr_appraisal_oca.mail_template_appraisal_completed
+msgid "Your Appraisal has been completed"
+msgstr "Ваше оцінювання завершено"
+
+#. module: hr_appraisal_oca
+#: model:mail.template,subject:hr_appraisal_oca.mail_template_appraisal_request_from_employee
+msgid "{{ user.name or ''}} requests an Appraisal"
+msgstr "{{ user.name or ''}} запитує оцінювання"
+
+#. module: hr_appraisal_oca
+#: model:mail.template,subject:hr_appraisal_oca.mail_template_appraisal_confirmation
+msgid "{{object.employee_id.name}}: Appraisal Confirmed"
+msgstr "{{object.employee_id.name}}: оцінювання підтверджено"

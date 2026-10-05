@@ -64,3 +64,8 @@ msgstr "Поновити"
 #: model_terms:ir.ui.view,arch_db:hr_contract_renew.hr_contract_view_form_inherit
 msgid "Renew Contract"
 msgstr "Поновити договір"
+
+#. module: hr_contract_renew
+#: model:ir.model,name:hr_contract_renew.model_hr_contract_renew_wizard
+msgid "HR Contract Renew Wizard"
+msgstr "Майстер поновлення HR-договору"

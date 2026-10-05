@@ -102,3 +102,8 @@ msgstr "Доступні колективні угоди"
 #: model_terms:ir.ui.view,arch_db:hr_collective_agreement_partner.view_res_partner_filter
 msgid "Has Collective Agreement"
 msgstr "Є колективна угода"
+
+#. module: hr_collective_agreement_partner
+#: model:ir.model,name:hr_collective_agreement_partner.model_collective_agreement_assign_wizard
+msgid "Assign Collective Agreements to Partner"
+msgstr "Призначити колективні угоди партнеру"
